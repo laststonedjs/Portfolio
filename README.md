@@ -10,5 +10,5 @@ including my projects so far, experience, links and 3D animations. </h3>
 
 <h4>Resources</h4>
 https://sketchfab.com/ - Here I found free examples of cool 3d objects that are easy to download, be sure to visit if you haven't
-
+https://docs.pmnd.rs/react-three-fiber/getting-started/introduction - React Three Fiber doc
 
