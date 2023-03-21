@@ -8,16 +8,15 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
+  firebase,
   git,
   figma,
   nada_logo,
   elimpark,
   feedback,
   bookNDrive,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -84,8 +83,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "git",
