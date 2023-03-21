@@ -5,6 +5,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import livesite from "./livesite.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -25,6 +26,9 @@ import nada_logo from "./company/nada_logo.svg";
 import elimpark from "./elimpark.png";
 import feedback from "./feedback.png";
 import bookNDrive from "./bookndrive.png";
+import moonwatch from "./moonwatch.png";
+import bob from "./bob.png";
+import fox from "./fox.jpg";
 
 export {
   logo,
@@ -34,6 +38,7 @@ export {
   mobile,
   web,
   github,
+  livesite,
   menu,
   close,
   css,
@@ -51,4 +56,7 @@ export {
   elimpark,
   feedback,
   bookNDrive,
+  moonwatch,
+  bob,
+  fox,
 };

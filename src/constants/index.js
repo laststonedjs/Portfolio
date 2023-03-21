@@ -17,6 +17,9 @@ import {
   elimpark,
   feedback,
   bookNDrive,
+  moonwatch,
+  bob,
+  fox,
 } from "../assets";
 
 export const navLinks = [
@@ -129,7 +132,7 @@ const projects = [
   {
     name: "Elimiwait Parking",
     description:
-      "Elimiwait Parking is software company that owns a suit of applications for parking lot companies in the USA that aim at improving revenue and user experience, automating the process of parking, as well as providing insight to the managers of the overall business performance of a parking lot. I was hired to contribute to the technical development of the product and implement new features to get an optimal end product. I also was a member of the team responsible for front-end parts, as well as the upgrade of fundamental dependencies and the restructuration of the vue.js software to React.",
+      "Elimiwait Parking is software company that owns a suit of applications for parking lot companies in the USA that aim at improving revenue and user experience, automating the process of parking. I was hired to contribute to the technical development of the product and implement new features to get an optimal end product. I also was a member of the team responsible for front-end parts, as well as the upgrade of fundamental dependencies and the restructuration of the vue.js software to React.",
     tags: [
       {
         name: "react",
@@ -146,7 +149,7 @@ const projects = [
   {
     name: "Feedback.Exchange",
     description:
-      "Feedback.Exchange is a b2b an Enterprise software with a complicated from scratch built front-end and backend. On this project I served as a junior developer responsible for day to day operations and impementation of the new features, among other things. The Feedback.exchange front-end is built using very little dependencies and all in a custom code to support the modern ui. As I started working for the software company Nada.ba, the very first task that I received was to create and maintain its webpage. The backend architecture is built using the most modern and advanced architecting methodologies and paradigms. The entire backend is built in a microservice architecture with a serverless implementation. The front end is built using React, the backend using Node.js and Firebase and the database is NoSQL, Firestore.",
+      "Feedback.Exchange is a b2b an Enterprise software with a complicated from scratch built front-end and backend. On this project I served as a junior developer responsible for day to day operations and impementation of the new features, among other things. The Feedback.exchange front-end is built using very little dependencies and all in a custom code to support the modern UI. The entire backend is built in a microservice architecture with a serverless implementation. The front end is built using React, the backend using Node.js and Firebase and the database is Firestore.",
     tags: [
       {
         name: "react",
@@ -167,7 +170,7 @@ const projects = [
   {
     name: "BookNDrive",
     description:
-      "BookNDrive is an Enterprise web and mobile app that is used for car sharing. The business is centered in Germany and has 10,000 daily active users. I worked as a junior developer on this enterprise project to help improve the product's everyday functionality. I was in charge of eliminating all bugs and enhancing products quality. The project was built using react for frontend, node.js for backend and no-sql firestore. The project has a ci/cd set up for two environments qa and production. The database has a backup system set up that triggers once a month automatically.",
+      "BookNDrive is an Enterprise web and mobile app that is used for car sharing. The business is centered in Germany and has 10,000 daily active users. I worked as a junior developer on this enterprise project to help improve the product's everyday functionality. I was in charge of eliminating all bugs and enhancing products quality. The project has a ci/cd set up for two environments qa and production.",
     tags: [
       {
         name: "react",
@@ -184,6 +187,61 @@ const projects = [
     ],
     image: bookNDrive,
     source_code_link: "https://www.book-n-drive.de/",
+  },
+  {
+    name: "Moon Watch",
+    description:
+      "Implemented the ability to switch between themes (Dark & Light). Ability to search for Movies and TV Shows fetched data from the 'TheMovieDB' website. Configured endpoints on the server side for displaying movies and shows by category (popular, top rated, favorites). Made auth options for 'SignIn' and 'SignUp', the Logged-in User has the option of adding content(movies & shows) to his favorites so that he can remember and watch it maybe later.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: moonwatch,
+    source_code_link: "https://github.com/laststonedjs/MoonWatch_FullStack_Movie_App",
+  },
+  {
+    name: "Bob The SheepO",
+    description:
+      "Bob the SheepO represents the NFT collection. Two creative experts create it to expand their art and brand expertise into the world of NFT’s by creating a more intimate relationship between Bob the Sheepo’s art, fans, and art collectors, and new-age enthusiasts. I helped to solved the idea and helped with website development.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "website",
+        color: "green-text-gradient",
+      },
+    ],
+    image: bob,
+    source_code_link: "https://bobthesheepo.com/",
+  },
+  {
+    name: "Arctic Foxes",
+    description:
+      "React Native and Expo CLI application for displaying, adding, editing and updating cute arctic foxes and their detailed display and description. Go deeper and get to know my pets from the far north of the planet, this application also offers you the possibility of inserting, deleting and changing existing foxes from the list.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expo-cli",
+        color: "green-text-gradient",
+      },
+    ],
+    image: fox,
+    source_code_link: "https://github.com/laststonedjs/arctic_foxes_react_native",
   },
 ];
 
