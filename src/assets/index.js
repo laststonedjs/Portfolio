@@ -18,7 +18,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import firebase from "./tech/firebase.png";
 
 import nada_logo from "./company/nada_logo.svg";
 
@@ -46,7 +46,7 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
+  firebase,
   nada_logo,
   elimpark,
   feedback,
